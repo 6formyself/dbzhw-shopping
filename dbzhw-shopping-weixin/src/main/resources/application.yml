@@ -1,0 +1,23 @@
+server:
+  port: 81
+#  context-path: /web
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: weixin
+debug: true
+# logger
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.github.binarywang.demo.wechat: DEBUG
+# 微信
+wechat:
+  mp:
+    appId: wxfacb07bc9a75117e
+    secret: d320a3fe00f20e3893478ffb13831163
+    token: dbzhw
+    aesKey:

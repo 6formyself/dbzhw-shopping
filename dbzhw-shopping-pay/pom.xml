@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dbzhw-shopping-parent</artifactId>
+        <groupId>com.dbzhw</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dbzhw-shopping-pay</artifactId>
+
+    <dependencies>
+        <dependency>
+            <artifactId>dbzhw-shopping-api-pay</artifactId>
+            <groupId>com.dbzhw</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <artifactId>dbzhw-shopping-common</artifactId>
+            <groupId>com.dbzhw</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- springboot整合mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        <!-- alipay-sdk -->
+        <dependency>
+            <groupId>com.github.1991wangliang</groupId>
+            <artifactId>alipay-sdk</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

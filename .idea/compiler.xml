@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dbzhw-shopping-member" />
+        <module name="dbzhw-shopping-pay" />
+        <module name="dbzhw-shopping-api-pay" />
+        <module name="dbzhw-shopping-eurekaserver" />
+        <module name="dbzhw-shopping-api-member" />
+        <module name="dbzhw-shopping-message" />
+        <module name="dbzhw-shopping-web" />
+        <module name="dbzhw-shopping-common" />
+        <module name="dbzhw-shopping-weixin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

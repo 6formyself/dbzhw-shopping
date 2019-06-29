@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dbzhw-shopping-parent</artifactId>
+        <groupId>com.dbzhw</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dbzhw-shopping-weixin</artifactId>
+
+    <properties>
+        <weixin-java-mp.version>2.8.0</weixin-java-mp.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.dbzhw</groupId>
+            <artifactId>dbzhw-shopping-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>${weixin-java-mp.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
